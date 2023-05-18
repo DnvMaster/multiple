@@ -14,8 +14,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Fortify\Actions\AttemptToAuthenticate;
-use Laravel\Fortify\Actions\RedirectIfTwoFactorAuthenticatable;
+use App\Action\Fortify\AttemptToAuthenticate;
+use App\Action\Fortify\RedirectIfTwoFactorAuthenticatable;
 
 use Laravel\Fortify\Fortify;
 
